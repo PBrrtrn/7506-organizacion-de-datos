@@ -4,9 +4,11 @@
  
  To Do:
    * Cuentas de numero de propiedades por columnas
+   * Emprolijar las labels de la exploracion por amenities
  
  Working:
-   * Exploracion por amenities (gimnasio, colegio cerca, SUM, etc.)
+   * Exploracion geografica por provincia - cloropleth map
 
 Done:
   * Exploracion por rangos de precios
+  * Exploracion por amenities (gimnasio, colegio cerca, SUM, etc.)
