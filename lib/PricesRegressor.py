@@ -17,8 +17,8 @@ class PricesRegressor:
 	def train_and_predict(self, n_estimators=100, learning_rate=0.08, gamma=0, subsample=0.75, colsample_bytree=1, max_depth=6, objective='reg:squarederror'):
 
 		regressor = xgb.XGBRegressor(self, n_estimators=n_estimators, learning_rate=learning_rate,
-																 gamma=gamma, subsample=subsample, colsample_bytree=colsample_bytree,
-																 max_depth=max_depth, objective=objective)
+																gamma=gamma, subsample=subsample, colsample_bytree=colsample_bytree,
+																max_depth=max_depth, objective=objective)
 
 		training_data = self.train_df.drop(columns=['precio']).values
 		training_target = self.train_df['precio'].values
